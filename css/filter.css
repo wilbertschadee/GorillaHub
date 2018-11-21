@@ -1,0 +1,8 @@
+.filter{
+    flex: 1;
+    float: left;
+    width: 300px;
+    height: auto;
+    margin: 0 10px;
+    background-color: whitesmoke;
+}
