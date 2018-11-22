@@ -1,5 +1,5 @@
 #wrapper{
-    margin: 40px 5% 20px 5%;
+    margin: 40px 0 20px 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -8,11 +8,12 @@
 
 .filter{
     flex: 1;
-    max-width: auto;
+    max-width: 200px;
+    min-width: 200px;
     height: auto;
     margin: 0 10px;
     padding: 10px;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     border-radius: 2px;
     
 } 
@@ -31,14 +32,14 @@
 
 .productWrapper{
     margin: 0 10px;
-    flex: 4;
+    flex: 5;
     height: auto;
     width: auto;
     min-width: 270px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* justify-content: center; */
+    justify-content: center; 
     padding: 8px;
     
     border-radius: 2px;
@@ -65,4 +66,18 @@
 
 .price{
     color: green;
+}
+
+
+@media(max-width: 700px){
+    #wrapper{
+        flex-direction: column;
+    }
+
+    .filter{
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+
 }
