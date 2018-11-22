@@ -26,6 +26,11 @@ html, body{
     text-decoration: none;
 
 }
+
+.navWrapper a:hover{
+    text-decoration: underline;
+}
+
 .navLink{
     flex: 1;
     padding: 30px 10px 10px 10px;

@@ -2,7 +2,7 @@
     require "nav.php"
 ?>
 
- <div id="wrapper">
+        <div id="wrapper">
             <div class="filter">
                 <p>Prijs</p>
                 <a href="damesD.php">aflopend</a>
@@ -10,11 +10,12 @@
             </div>
             <div class="productWrapper">
                 <div class="banner">FREE STANDARD DELIVERY & FREE RETURNS</div>
+                <div class="cat">DAMES</div>
                 <div class="products">
                     <?php include "php/productsDamesD.php"; ?>
+                </div>
             </div>
         </div>
-</div>
     </body>
 
 </html>

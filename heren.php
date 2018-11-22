@@ -9,8 +9,8 @@
             </div>
             <div class="productWrapper">
                 <div class="banner">FREE STANDARD DELIVERY & FREE RETURNS</div>
+                <div class="cat">HEREN</div>
                 <div class="products">
-                    
                     <?php include "php/productsHeren.php"; ?>
                 </div>
             </div>
