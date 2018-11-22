@@ -2,6 +2,7 @@ html, body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    font-size: 18px
 }
 
 /* div{
@@ -10,11 +11,12 @@ html, body{
 } */
 
 .navWrapper{
-    margin: 2.5% 10px 0 10px ;
+    margin: 2.5% 0 0 0 ;
     display: flex;
     flex-direction: row;
     padding: 8px;
-    height: 20vh;
+    height: 100px;
+    border-bottom-style: solid;
 }
 
 .navWrapper a{
@@ -25,12 +27,14 @@ html, body{
 }
 .navLink{
     flex: 1;
-    padding: 10px;
-
+    padding: 30px 10px 10px 10px;
+    display: flex;
+    justify-content: left;
 }
 
 
 .navLogo{
+    padding-top: 10px;
     flex: 1;
     display: flex;
     justify-content: center;
@@ -43,13 +47,13 @@ html, body{
 
 .navLogin{
     flex: 1;
-    padding: 10px;
+    padding: 30px 10px 10px 10px;
     display: flex;
     justify-content: flex-end;
 }
 
 
-@media(max-width: 700px){
+@media(max-width: 1000px){
     .navwrapper{
         flex-direction: column;
     }
