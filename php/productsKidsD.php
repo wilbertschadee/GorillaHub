@@ -1,9 +1,9 @@
 <?php
     
     $sql = "SELECT product_name, price, img_path, gender FROM product
-    WHERE  gender='dames' ORDER BY price asc" ;
+    WHERE  gender='kids' ORDER BY price desc" ;
     
-    $data = $conn->query($sql);     
+    $data = $conn->query($sql);      
 
     foreach ($data as $row)
     {   

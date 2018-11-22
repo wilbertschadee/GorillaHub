@@ -8,26 +8,39 @@
 
 .filter{
     flex: 1;
-    max-width: 300px;
+    max-width: auto;
     height: auto;
     margin: 0 10px;
+    padding: 10px;
     background-color: whitesmoke;
     border-radius: 2px;
     
+} 
+
+.filter p{
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+
+.filter a{
+    display: block;
+    margin: 5px;
+    color: #000;
+    text-decoration: none;
 }
 
 .productWrapper{
     margin: 0 10px;
-    flex: 1;
+    flex: 4;
     height: auto;
     width: auto;
     min-width: 270px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: center; */
     padding: 8px;
-    background-color: whitesmoke;
+    
     border-radius: 2px;
     box-shadow: 0 2px 2px 0 rgb(0, 0, 0, 0.16), rgba(0, 0, 0, 0.08); 
 }
@@ -37,6 +50,7 @@
     max-width: 250px;
     text-align: center;
     margin: 5px;
+    background-color: whitesmoke;
 }
 
 .product img{

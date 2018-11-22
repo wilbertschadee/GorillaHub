@@ -1,7 +1,7 @@
 <?php
     
     $sql = "SELECT product_name, price, img_path, gender FROM product
-    WHERE  gender='heren' " ;
+    WHERE  gender='heren' ORDER BY price asc " ;
     
     $data = $conn->query($sql);     
 

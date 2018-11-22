@@ -10,7 +10,6 @@
         <title>gorillaBay</title>
         <link rel="stylesheet" href="css/nav.css">
         <link rel="stylesheet" href="css/productDisplay.css">
-        <link rel="stylesheet" href="css/filter.css">
     </head>
 
     <body>

@@ -4,11 +4,11 @@
         <div id="wrapper">
             <div class="filter">
                 <p>Prijs</p>
-                <a href="HerenD.php">aflopend</a>
-                <a href="Heren.php">oplopend</a>
+                <a href="kidsD.php">aflopend</a>
+                <a href="kids.php">oplopend</a>
             </div>
             <div class="productWrapper">
-                <?php include "php/productsHeren.php"; ?>
+                <?php include "php/productsKidsD.php"; ?>
             </div>
         </div>
 
