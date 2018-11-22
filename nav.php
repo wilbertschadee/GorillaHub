@@ -1,6 +1,5 @@
 <?php 
     include "php/dbConnection.php";
-    include "php/select.php";
 ?>
 
 <!DOCTYPE html>
@@ -19,12 +18,12 @@
                 <a href="heren.php">HEREN</a>
                 <a href="kids.php">KINDEREN</a>
             </div >
-            <div class="navLogo">
+            <a href="index.php" class="navLogo">
                 <img src="img/gorillaBayLogo.png" alt="gorillaBayLogo">
-            </div>
+            </a>
             <div class="navLogin">
-                <a href="#">login</a>
-                <a href="#">winkelwagen</a>
+                <a href="#">LOGIN</a>
+                <a href="#">WINKELWAGEN</a>
             </div>
         </div>
 

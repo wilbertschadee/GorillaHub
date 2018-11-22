@@ -1,6 +1,7 @@
 <?php
     
-    $sql = "SELECT product_name, price, img_path, gender FROM product" ;
+    $sql = "SELECT product_name, price, img_path, gender FROM product
+    WHERE  gender = 'kids' AND categorie = 'shirt' ORDER BY price asc" ;
     
     $data = $conn->query($sql);     
 

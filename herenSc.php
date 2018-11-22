@@ -17,7 +17,7 @@
                 <div class="banner">FREE STANDARD DELIVERY & FREE RETURNS</div>
                 <div class="cat">HEREN</div>
                 <div class="products">
-                    <?php include "php/productsHerenD.php"; ?>
+                    <?php include "php/productsHerenSc.php"; ?>
                 </div>
             </div>
         </div>

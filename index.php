@@ -3,7 +3,12 @@
 ?>
 
 
+            <div class="productWrapper">
 
+                <div class="products">
+                <?php include "php/select.php"; ?>
+                </div>
+            </div>
     </body>
 
 </html>

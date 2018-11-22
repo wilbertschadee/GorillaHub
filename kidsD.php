@@ -3,9 +3,16 @@
 ?>
         <div id="wrapper">
             <div class="filter">
-                <p>Prijs</p>
-                <a href="kidsD.php">aflopend</a>
-                <a href="kids.php">oplopend</a>
+                <p>PRIJS</p>
+                <a href="kidsD.php">Aflopend</a>
+                <a href="kids.php">Oplopend</a>
+                <p>CATEGORIE</p>
+                <a href="herenT.php">Truien</a>
+                <a href="herenSh.php">Shirts</a>
+                <a href="herenJ.php">Jassen</a>
+                <a href="herenB.php">Broeken</a>
+                <a href="herenSc.php">Schoenen</a>
+                <a href="kidsJurk.php">jurken</a>
             </div>
             <div class="productWrapper">
                 <div class="banner">FREE STANDARD DELIVERY & FREE RETURNS</div>

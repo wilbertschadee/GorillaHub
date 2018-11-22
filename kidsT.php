@@ -13,13 +13,12 @@
                 <a href="kidsB.php">Broeken</a>
                 <a href="kidsSc.php">Schoenen</a>
                 <a href="kidsJurk.php">jurken</a>
-
             </div>
             <div class="productWrapper">
                 <div class="banner">FREE STANDARD DELIVERY & FREE RETURNS</div>
                 <div class="cat">KINDEREN</div>
                 <div class="products">
-                <?php include "php/productsKids.php"; ?>
+                <?php include "php/productsKidsT.php"; ?>
                 </div>
             </div>
         </div>

@@ -4,9 +4,18 @@
 
         <div id="wrapper">
             <div class="filter">
-                <p>Prijs</p>
-                <a href="damesD.php">aflopend</a>
-                <a href="dames.php">oplopend</a>
+                <p>PRIJS</p>
+                <a href="damesD.php">Aflopend</a>
+                <a href="dames.php">Oplopend</a>
+                <p>CATEGORIE</p>
+                <a href="damesT.php">Truien</a>
+                <a href="damesSh.php">Shirts</a>
+                <a href="damesJ.php">Jassen</a>
+                <a href="damesBH.php">Beha's</a>
+                <a href="damesB.php">Broeken</a>
+                <a href="damesSc.php">Schoenen</a>
+                <a href="damesTas.php">Tassen</a>
+                <a href="damesJurk.php">jurken</a>
             </div>
             <div class="productWrapper">
                 <div class="banner">FREE STANDARD DELIVERY & FREE RETURNS</div>

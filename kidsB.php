@@ -19,7 +19,7 @@
                 <div class="banner">FREE STANDARD DELIVERY & FREE RETURNS</div>
                 <div class="cat">KINDEREN</div>
                 <div class="products">
-                <?php include "php/productsKids.php"; ?>
+                <?php include "php/productsKidsB.php"; ?>
                 </div>
             </div>
         </div>
