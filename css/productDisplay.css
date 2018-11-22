@@ -34,6 +34,28 @@
 .productWrapper{
     margin: 0 10px;
     flex: 5;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner{
+    width: auto;
+    height: 50px;
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.cat{
+    margin: 20px 0 40px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.products{
+    
     height: auto;
     width: auto;
     min-width: 270px;
@@ -42,7 +64,6 @@
     flex-wrap: wrap;
     justify-content: center; 
     padding: 8px;
-    
     border-radius: 2px;
     box-shadow: 0 2px 2px 0 rgb(0, 0, 0, 0.16), rgba(0, 0, 0, 0.08); 
 }

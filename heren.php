@@ -8,7 +8,11 @@
                 <a href="Heren.php">oplopend</a>
             </div>
             <div class="productWrapper">
-                <?php include "php/productsHeren.php"; ?>
+                <div class="banner">FREE STANDARD DELIVERY & FREE RETURNS</div>
+                <div class="products">
+                    
+                    <?php include "php/productsHeren.php"; ?>
+                </div>
             </div>
         </div>
 

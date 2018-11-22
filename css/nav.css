@@ -17,6 +17,7 @@ html, body{
     padding: 8px;
     height: 100px;
     border-bottom-style: solid;
+    border-color: gray;
 }
 
 .navWrapper a{
